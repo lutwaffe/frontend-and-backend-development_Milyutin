@@ -1,0 +1,19 @@
+# Многостраничный сайт (Practice 2)
+
+Файлы:
+- index.html
+- about.html
+- contacts.html
+- sitemap.xml
+
+Как запустить локально:
+1. Откройте index.html в браузере (двойной клик). Для правильной работы некоторых фич можно поднять простой http-server:
+   - Python 3: `python -m http.server 8000`
+   - Затем открыть http://localhost:8000
+
+Git / GitHub:
+git add *.html sitemap.xml robots.txt assets/*
+git commit -m "feat: add multi-page structure with semantics, nav and anchors"
+git push origin dev
+
+Создать Pull Request dev -> main и опубликовать через GitHub Pages (Settings -> Pages).
